@@ -1,15 +1,14 @@
 # Ask the user about the current weather conditions and provide clothing recommendations based on input.
 
-#weather = ["sunny", "rainy", "cold"]
-weather_condition = input("What's the weather like today? (sunny/rainy/cold): ")
+weather = input("What's the weather like today? (sunny/rainy/cold): ")
 
-if weather_condition == "sunny":
+if weather == "sunny":
     print("Wear a t-shirt and sunglasses.")
 
-elif weather_condition == "rainy":
+elif weather == "rainy":
     print("Don't forget your umbrella and raincoat.")
 
-elif weather_condition == "cold":
+elif weather == "cold":
     print("Make sure to wear a warm coat and scarf.")
 
 else:
