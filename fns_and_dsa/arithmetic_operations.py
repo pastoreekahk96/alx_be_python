@@ -2,7 +2,7 @@
 Create a Python script named arithmetic_operations.py. In this script, define a function that performs basic arithmetic operations. This function, perform_operation, will be imported and used in a separate main.py script
 
 """
-def perform_operation(num1, num2, opperation):
+def perform_operation(num1, num2, operation):
     if opperation == 'add':
         return num1 + num2
 
@@ -19,4 +19,4 @@ def perform_operation(num1, num2, opperation):
             return num1 / num2
 
     else:
-        return "Input error, Invalid opperation"
+        return "Error: Invalid opperation"
